@@ -11,7 +11,7 @@ import com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement;
 import com.qmetry.qaf.automation.ui.webdriver.QAFWebElement;
 
 public class HomeTestPage extends WebDriverBaseTestPage<WebDriverTestPage> {
-
+//Venkat Modifications
 	@FindBy(locator = "home.category.link")
 	private QAFWebElement homeCategoryLink;
 	@FindBy(locator = "home.subcategory.link")
